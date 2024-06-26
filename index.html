@@ -1,0 +1,335 @@
+<html>
+	<head>
+		<title>CSS Website Layout</title>
+		<style>
+			body{
+				margin: 0;
+			}
+			/*style head*/
+			.header{
+				
+				padding: 30px;
+				text-align: center;
+			}
+			/* merubah warna pas kursor di meneyntuh link*/
+			.topnav a:hover{
+				background-color: #ddd;
+				color: black;
+			}
+			.topnav a{
+				float:left;
+				display: block;
+				color: #f2f2f2;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			*{
+				box-sizing: border-box;
+			}
+			/* style the top navigation bar*/
+
+			.topnav{
+				overflow: hidden;
+				background-color: #333;
+			}
+			.column{
+				float: left;
+				width: 33.33%;
+				padding: 15px;
+			}
+			.row::after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			body{
+				font-family: Arial;
+				padding: 10px;
+				background: white;
+			}
+			.header h1{
+				font-size: 50px;
+				color: green;
+			}
+			.header p{
+				font-size: 15px;
+				color: white;
+			}
+			.leftcolumn{
+				float: left;
+				width: 75%;
+			}
+			.rightcolumn{
+				float: left;
+				width: 25%;
+				background-color: #yellow;
+				padding-left: 20px;
+			}
+			.fakeimg {
+				background-color: #aaa;
+				width: 100%;
+				padding: 20px;
+			}
+			.card{
+				background-color: #f1f1f1;
+				padding: 20px;
+				margin-top: 20px;
+			}
+			.footer{
+				padding: 20px;
+				text-align: center;
+				background: white;
+				margin_top:20px;
+			}
+			@media screen and (max-width:800px){
+				.leftcolumn,.rightcolumn{
+					width: 100%;
+					padding: 0;
+				}
+			}
+			@media screen and (max-width:400px){
+				.topnav a{
+					float: none;
+					width: 100%;h
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1>HIDUP SEHAT</h1>
+			<p>MAKANAN</p>
+		</div>
+		<div class="topnav">
+			<a href="index.html">HOME</a>
+			<a href="olah.html">EXERCISE</a>
+		</div>
+		<div class="row">
+	<div class="leftcolumn">
+		<div class="card">
+			<h2>BUAH BUAHAN</h2>
+			<img src="bh.jpg"width="100%">
+			<p> Sumber Vitamin dan Mineral
+
+    Berbagai vitamin dan mineral yang ada di buah ini berfungsi untuk menjaga metabolisme tubuh dan memerangi senyawa-senyawa hasil oksidasi, seperti radikal bebas yang tidak baik untuk tubuh. Buah yang kaya vitamin C juga dapat memproduksi lebih banyak kolagen, yaitu jenis protein berserat yang bagus untuk kulit Contoh buah – buahan yang mengandung vitamin C yang tinggi dalam 100 gram buah :
+
+-          Jambu biji : 228,3 mg
+
+-          Pepaya : 61 mg
+
+-          Jeruk : 53 mg
+
+-          Nanas : 47,8 mg
+
+-          Mangga : 36,5 mg
+
+Sumber antioksidan
+
+    Buah merupakan salah satu sumber antioksidan alami. Antioksidan adalah senyawa yang dapat memperlambat atau bahkan mencegah kerusakan sel-sel dalam tubuh yang berpotensi berbahaya bagi kesehatan. Senyawa antioksidan diproduksi di dalam tubuh dan dapat diperoleh dari makanan. ntuk melawan radikal bebas, diperlukan asupan antioksidan yang cukup. Contoh buah – buahan local yang mudah dijumpai dan mengandung senyawa antioksidan antara lain :
+
+-          Alpukat  yang mengandungan saponin, flavonoid, dan alkaloid
+
+-          Mangga  mengandung vitamin A, flavonoid, beta karoten, alpha karoten, polifenol, dan beta cryptoxanthin
+
+Sumber Air
+
+    Menjaga tubuh tetap terhidrasi sangat penting untuk meningkatkan kesehatan pencernaan, metabolisme, kinerja otak, dan sel tubuh. Selain air putih, konsumsi buah-buahan dapat menjaga hidrasi tubuh. Salah satu buah lokal yang banyak mengandung air  adalah semangka, kadar airnya hingga 92%.
+
+1.    Mencegah penyakit tertentu
+
+    Mengonsumsi buah secara rutin dapat mengurangi terkena risiko penyakit jantung, diabetes tipe 2, obesitas, stroke dan kanker. Kandungan serat, air dan antioksidan dalam buah dapat membantu menjaga seluruh sistem pencernaan agar lebih sehat. Contoh pepaya yang mengandung enzim proteolitik atau enzim pemecah protein yang disebut dengan enzim papain. Enzim papin berfungsi memecah protein pada makanan menjadi molekul yang lebih sederhana dengan cara hidrolisis sehingga mudah dicerna dalam tubuh.
+
+2.    Menjaga tubuh tetap bugar
+
+    Manfaat lain buah – buahan adalah sebagai sumber energy untuk membantu menstabilkan kadar gula darah, sumber serat yang dapat membuat rasa kenyang lebih lama sehingga bisa memabntu menekan nafsu makan.
+
+World Health Organization (WHO) dan Gerakan masyarakat hidup sehat (GERMAS) merekomendasikan meningkatkan asupan buah, yaitu 400 gram buah per harinya, atau 2-3x/hari @150 – 200 gr/hari.</p>
+		</div>
+		<div class="card">
+			<h2>KACANG KACANGAN</h2>
+			<img src="kacang.jpg"width="100%">
+			<p>Berikut beberapa alasan kenapa Anda harus banyak mengonsumsi banyak kacang.
+
+1. Kacang mengandung banyak serat
+
+Serat membantu tubuh merasa kenyang sehingga Anda tidak perlu makan banyak sepanjang hari. Sementara, pedoman diet merekomendasikan wanita mendapatkan sekitar 25 gram serat sehari. Padahal, rata-rata wanita mengonsumsi hanya 12,1-13,8 gram per hari.
+
+2. Kacang baik untuk pencernaan
+
+Kacang mengandung serat larut dan tidak larut. Sehingga, mereka bekerja ganda untuk menjaga sistem pencernaan anda berjalan lancar. Yang pertama melambat pencernaan, yang memberi Anda perasaan penuh dan yang kedua membantu mencegah sembelit.
+
+Hanya, pastikan untuk minum banyak air yang Anda butuhkan untuk membantu langkah serat melalui saluran pencernaan Anda.
+
+4. Kacang dapat membantu mengatur gula darah
+
+Kacang memiliki tingkat indeks glikemik yang rendah. Yakni, peringkat makanan berdasarkan bagaimana mereka memengaruhi gula darah yang membantu menjaga gula darah Anda tetap stabil
+
+Sebuah studi dalam Archives of Internal Medicine bahkan menemukan, orang dengan diabetes tipe 2 yang mengonsumsi secangkir kacang setiap hari selama tiga minggu mampu mempertahankan gula darah dan tekanan darah lebih rendah daripada ketika mereka mulai diet.
+
+5. Kacang dapat membantu menurunkan kolesterol
+
+Tingginya kadar kolesterol LDL (jenis yang buruk) dapat menempel pada dinding pembuluh darah. Hal itu menyebabkan peradangan dan penumpukan plak. Sebuah sistem kardiovaskular yang sehat dimulai dengan apa yang Anda makan. Nah, kacang-kacangan adalah salah satu makanan rendah lemak yang anda inginkan dalam menu makanan Anda.
+
+6. Kacang baik untuk jantung Anda
+
+Diet kaya biji adalah berita baik bagi jantung Anda. ” Dengan setiap pengurangan 1 persen dari total kolesterol darah, ada sekitar pengurangan 2 persen dalam risiko serangan jantung,” kata Sass.
+
+Lalu ada kandungan serat yang tinggi. Sebuah studi di British Medical Journal melihat hubungan antara asupan serat dan penyakit jantung serta penyakit kardiovaskular. Para peneliti menemukan bahwa semakin sering Anda mengonsumsi serat per hari, maka secara signifikan dapat menurunkan risiko penyakit jantung sebesar sembilan persen.</p>
+		</div>
+			<div class="card">
+			<h2>DAGING</h2>
+			<img src="daging.jpg"width="100%">
+			<p>Manfaat Daging Sapi untuk Kesehatan Tubuh
+Daging sapi memiliki beragam keistimewaan bagi kesehatan tubuh, asalkan pengonsumsiannya tidak berlebihan, dan memilih potongan tanpa lemak. Selain enak, berikut ini beberapa manfaat yang bisa kamu dapatkan dari daging sapi:
+
+1. Mengoptimalkan produksi darah
+Daging sapi menjadi salah satu sumber zat besi yang baik untuk kesehatan tubuh. Saat kebutuhan zat besi dalam tubuh terpenuhi, kondisi ini membuat tubuh mampu memproduksi hemoglobin secara optimal. 
+
+Adapun, hemoglobin adalah protein yang membantu darah membawa oksigen dari paru-paru ke seluruh tubuh.
+
+2. Mencegah anemia
+mencegah anemia
+Kurang konsumsi zat besi dapat menempatkan kamu pada risiko anemia defisiensi besi, yang berarti tubuh tidak mendapatkan cukup oksigen. Gejala yang mungkin terjadi adalah lelah, lesu, lemah, dan pusing. 
+
+Jadi, manfaat mengonsumsi daging sapi dapat mencegah anemia defisiensi besi pada orang yang berisiko.
+
+3. Mengoptimalkan kekebalan tubuh
+Daging sapi adalah sumber zink yang baik, yang tubuh butuhkan untuk menyembuhkan jaringan yang rusak dan mendukung sistem kekebalan tubuh yang sehat. 
+
+Anak-anak dan remaja juga membutuhkan jumlah zink yang sehat untuk memastikan mereka tumbuh dan berkembang dengan baik.
+
+4. Mengoptimalkan fungsi otot
+manfaat daging sapi untuk kesehatan otot
+Manfaat daging sapi lainnya untuk mengoptimalkan fungsi otot. Protein sangat penting untuk kesehatan otot. Ini membangun kembali jaringan otot yang secara alami hilang dalam keausan kehidupan sehari-hari. 
+
+Protein juga membantu membangun lebih banyak otot dan sangat membantu jika  melakukan latihan kekuatan. Satu porsi daging sapi memasok jumlah protein harian yang direkomendasikan, membantu mencegah hilangnya massa otot. 
+
+Kehilangan massa otot dapat membuat tubuh terasa lebih lemah dan mungkin menyulitkan untuk menjaga keseimbangan, terutama jika berusia 55 tahun atau lebih.5. Meningkatkan kesehatan organ reproduksi
+Zink menjadi salah satu kandungan yang baik untuk menjaga kesehatan reproduksi. Kamu bisa memenuhi kebutuhan nutrisi ini melalui daging sapi. 
+
+Ketika organ reproduksi dalam kondisi yang optimal, maka kamu akan terhindar dari berbagai penyakit, termasuk gangguan kesuburan.
+
+6. Mengoptimalkan kekuatan tulang
+daging yang bermanfaat untuk kesehatan tulang
+Daging sapi mengandung protein yang baik untuk mengoptimalkan kesehatan tulang. Karena itu, memenuhi kebutuhan nutrisi ini membuat kamu akan terhindar dari berbagai gangguan penyakit pada tulang, seperti osteoporosis.
+
+7. Mengoptimalkan hormon dalam tubuh
+Kandungan vitamin B atau niasin dalam daging sapi membuat fungsi tubuh dapat berjalan dengan baik. Termasuk dalam memproduksi hormon. Itulah manfaat daging sapi yang terkait dengan hormon tubuh.
+
+8. Membantu mengontrol berat badan
+daging sapi untuk mengontrol berat badan
+Manfaat daging sapi lainnya yaitu bisa membantu kamu dan anggota keluargamu untuk mengontrol berat badan. Hal ini karena kandungan protein yang cukup tinggi sehingga membuat kamu merasa kenyang lebih lama. 
+
+Jadi, kamu bisa mengontrol nafsu makan dan mengatur porsi makan untuk menjaga berat badan tetap stabil.
+
+Cari tahu juga cara menurunkan berat badan melalui artikel ini → 5 Cara Turunkan Berat Badan dengan Cepat dan Aman
+
+9. Mencegah kesehatan mental
+Manfaat daging sapi lainnya berkaitan dengan  kesehatan mental. Melansir The Scientific World Journal, daging sapi mengandung bioaktif peptides yang memiliki peran penting dalam mencegah perkembangan penyakit gangguan mental.
+
+10.  Menjaga tetap sehat di usia lanjut
+daging juga bermanfaat untuk kesehatan lansia
+Kandungan protein membuat tubuh dan otot menjadi tetap sehat meskipun telah memasuki usia lanjut. Namun, pastikan kamu mengonsumsi daging sapi tanpa lemak untuk merasakan manfaat daging sapi secara optimal, dan mencegah dampaknya pada kesehatan.
+
+11. Mempercepat proses penyembuhan
+Daging sapi menjadi salah satu sumber zat besi yang baik untuk tubuh. Terpenuhinya zat besi mampu mempercepat proses penyembuhan jaringan maupun sel yang mengalami kerusakan.
+
+12. Meningkatkan ketangkasan dalam berolahraga
+
+Mengonsumsi zat besi bisa meningkatkan kandungan karnosin pada otot. Karnosin yang tinggi terkait dengan penurunan kelelahan dan meningkatkan kinerja serta ketangkasan saat kamu melakukan aktivitas fisik.
+
+Melansir jurnal Amino Acids, seseorang yang mengikuti diet vegetarian akan memiliki tingkat karnosin yang lebih rendah dalam otot dari waktu ke waktu. Jadi, pastikan kamu mengonsumsi daging sapi agar ketangkasan menjadi lebih optimal saat berlatih fisik.
+</p>
+		</div>
+			<div class="card">
+			<h2>SAYUR SAYURAN</h2>
+			<img src="sayur.jpeg"width="100%">
+			<p> Manfaat Sayur untuk Tubuh Kita
+
+Salah satu manfaat sayur adalah untuk membantu menurunkan berat badan. Secara rinci verikut manfaat sayur untuk kesehatan yang didapat saat Anda mengkonsumsinya;
+
+Baik untuk Pencernaan
+Seperti yang kita tahu, sayur merupaka sumber serta terbaik untuk tubuh. Serat merupakan komponen yang penting untuk menjaga kesehatan saluran pencernaan dan mencegah konstipasi serta gangguan pencernaan lainnya. Mengkonsumsi makanan yang tinggi serat pun akan menurunkan risiko terkena kanker usus besar.
+
+Mendapatkan Berat Badan ideal.
+Sayur juga merupakan sumber makanan yang rendah lemak serta kalori. Sehingga, makanan ini baik untuk anda yang sedang menjalani diet dan mencoba membatasi asupan kalori ke tubuh. Tentu manfaat ini tidak bisa didapatkan jika sayur diolah dengan cara yang tidak sehat. Manfaat sayur akan tertutupi jika pengolahannya dilakukan dengan digoreng atau dibumbui dengan banyak minyak, garam, maupun bahan-bahan lain yang tinggi lemak.
+
+Mencegah Hipertensi
+Sayuran hijau kaya akan kandungan nitrit dan nitrat, sehingga bisa melindungi kita dari tekanan darah tinggi. Selain itu, lemak tak jenuh dari kacang-kacangan serta minyak zaitun juga dapat memberikan efek yang sama
+
+Menurunkan risiko Kanker
+Sayuran seperti kol, kembang kol, dan brokolo memngandung indoles dan isothiocynates. Keduanya merupakan komponen yang diyakini dapat melindungi tubuh dari kanker usus besar, kanker payudara, kanker kulit dan beberapa jenis kanker lainnya. Brokoli yang masih berbentuk tunas juga memiliki kandungan sulforaphane lebih tinggi dibandingkan dengan brokoli yang sudah besar. Komponen ini diketahui memiliki kemampuan dalam melindungi tubuh dari kanker. Hampir semua sayuran tinggi antioksidan, yang memang dapat melindungi tubuh dari paparan radikal bebas berlebih.
+
+Meredakan Stress
+Tidak banyak tahu manfaat sayur yang satu ini, sayur juga bisa membantu meredakan stress karena ia secara alami akan membantu memperbaiki suasana hati. Selain itu, mengkosumsi sayur juga akan membuat kita merasa lebih sehat dan segar. Bahkan, sayur juga dipercaya bisa membantu meredakan gejala depresi.
+
+Membuat Kulit Menjadi Sehat
+Sudah bukan rahasia lagi jika sayur bisa membuat kulit menjadi lebih sehat dan terlihat kencang, cerah, dan berkilau. Manfaat ini didapatkan dari kandungan sayur yang memanag baik untuk kulit, seperti; Vitamin C pada sayuran berwarna oranye dan hijau yang baik untuk memicu produksi kolagen sehingga kulit terlihat tetap kenyal dan kencang. Likopen pada sayuran berwarna merah yang bisa melindungi kulit dari paparan sinar matahari. Antioksidan pada sayur berwarna biru atau ungu seperti terong dan kol ungu, unutk bisa melindungi dari paparan radikal bebas.
+
+Menyehatkan Rambut
+Ingin punya rambut indah berkilau?? Perbanyaklah makan sayur. Sebab, asupan yang satu ini mengandung berbagai komponen yang dibutuhkan untuk memperkuat rambur dan mempertahankan kilaunya, seperti Vitamin A, Vitamin C, beta-caroten, likopen, hingga antioksidan.
+
+Setelah mengetahui lebih jauh tentang manfaat sayur, sebaiknya jangan malas untuk mengkonsumsi makanan sehat ini. Pastikan jumlahnya menutupi setidaknya setengan piring makan. Jangan lupa, pola makan yang sehat juga harus disertai dengan olah raga teratur.</p>
+		</div>
+				<div class="card">
+			<h2>UBI UBIAN</h2>
+			<img src="ubi.jpg"width="100%">
+			<p> Berbagai Manfaat Ubi Jalar untuk Kesehatan
+Dengan beragam nutrisi yang terkandung di dalam ubi jalar, tak heran jika umbi-umbian yang satu ini memiliki manfaat kesehatan yang tidak sedikit. Berikut ini adalah berbagai manfaat ubi jalar:
+
+1. Memperkuat sistem kekebalan tubuh
+Beta karoten pada ubi jalar bisa diubah menjadi vitamin A dalam tubuh. Penelitian menunjukkan bahwa kekurangan vitamin A dapat meningkatkan radang usus dan mengurangi respon sistem kekebalan tubuh dalam melawan penyakit. Agar sistem kekebalan tubuh menjadi kuat, Anda bisa mengonsumsi tanaman ini.
+
+2. Menjaga kesehatan mata
+Masih tentang kandungan beta karoten dalam ubi, zat yang satu ini juga dapat menurunkan risiko terkena degenarasi makula. Penyakit mata ini menjadi penyebab paling umum seseorang kehilangan penglihatan.
+
+3. Menambah energi
+Manfaat ubi jalar juga bisa meningkatkan energi tubuh. Hal ini karena ubi jalar mengandung karbohidrat kompleks yang merupakan sumber energi utama bagi tubuh. Kandungan karbohidrat ubi jalar bahkan lebih tinggi daripada kentang. Di dalam tubuh, karbohidrat diproses menjadi bahan bakar agar tubuh lebih berenergi.
+
+4. Meningkatkan kesehatan sistem pencernaan
+Antioksidan dan serat yang terkandung dalam ubi jalar membantu sistem pencernaan menjadi lebih sehat dan mencegah terjadinya sembelit. Berbagai penelitian menyatakan bahwa serat pada ubi jalar berfungsi sebagai prebiotik yang baik bagi kesehatan usus.
+
+Prebiotik merangsang pertumbuhan bakteri usus yang sehat dan meningkatkan kesehatan sistem pencernaan secara keseluruhan, sehingga terlindung dari berbagai gangguan, misalnya diare atau sembelit.
+
+5. Mengendalikan gula darah
+Beberapa penelitian menunjukkan bahwa ubi jalar yang kulit dan umbinya berwarna putih dapat mengendalikan kadar gula dan memiliki kadar indeks glikemik yang rendah. Selain itu, ubi jalar jenis ini juga dapat menurunkan kadar glukosa darah dan meningkatkan sensitivitas tubuh terhadap insulin.
+
+Mengingat manfaat ubi jalar ini, Anda dapat menjadikannya sebagai camilan sehat bagi penderita diabetes, tetapi tetap harus dibatasi konsumsinya.
+
+6. Menurunkan tekanan darah
+Mengonsumsi ubi jalar dapat meningkatkan asupan kalium dalam tubuh. Kalium dapat menurunkan tekanan darah, mengurangi ketegangan pada jantung, serta membantu mengatur denyut jantung dan kontraksi otot.
+
+Namun, Anda disarankan untuk mengolah ubi jalar dengan tidak menambah garam secara berlebihan. Kelebihan garam (sodium) justru dapat meningkatkan tekanan darah.
+
+7. Menurunkan risiko terkena kanker
+Ubi jalar mengandung antioksidan beta karoten yang mampu menurunkan risiko munculnya beberapa jenis kanker, seperti kanker lambung, kanker usus besar, kanker payudara, dan kanker kandung kemih. Dari semua jenis ubi, ubi ungu memiliki jumlah antioksidan yang paling tinggi.
+
+Suguhan ubi jalar rebus biasanya dianggap sebagai sajian tradisional. Padahal, makanan ini kaya nutrisi dan terasa lezat. Untuk menikmati manfaat ubi jalar, cobalah lebih sering mengonsumsinya sebagai menu makan utama atau sekadar kudapan di waktu senggang.</p>
+		</div>
+</div>
+<div class="rightcolumn">
+	<div class="card">
+		<h2>LAUK</h2>
+		<img src="daging.jpg"width="100%">
+		<p><i><b>Manfaat protein tinggi</b></i></p>
+	</div>
+	<div class="card">
+		<h3>Sayur segar</h3>
+		<img src="sayur.jpeg"width="100%">
+		<p><i><b>Manfaat serat tinggi</b></i></p>
+	</div>
+	<div class="card">
+		<h3>Ikuti Kami</h3>
+		<p>Instagram:@hidupsehat</p>
+		
+	</div>
+</div>
+</div>
+
+<div class="footer">
+	<h2>@<b>COPYRIGHT&ANGGA2K24</b></h2>
+</div>
+	</body>
+</html>
